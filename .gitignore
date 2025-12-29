@@ -165,11 +165,15 @@ nsight-systems*
 build/
 mlruns/
 checkpoints/
+checkpoints*/
+wandb/
 
 # Hydra
 outputs/
 multirun/
 .hydra/
+results*/
+data/
 
 # SLURM
 slurm-*.out
